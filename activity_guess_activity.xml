@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.joonsookim.GuessMaster">
+
+    <TextView
+        android:id="@+id/entityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Entity Name"/>
+
+    <TextView
+        android:id="@+id/ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/entityImage"
+        android:layout_width="350dp"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+    <EditText
+        android:id="@+id/guessinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="MM/DD/YYYY"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT GUESS"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary" />
+
+
+</LinearLayout>
